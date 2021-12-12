@@ -13,7 +13,7 @@ const WhitePaper = () => {
                 <h1>White Paper: Pirate Hunter (v.1)</h1>
                 <p>Intro:</p>
 
-                The Baron was a terrifying pirate that roamed the seas of the Metaverse. Over many decades he amassed a fabulous amount of treasure and $BOOTY, the greatest ever known. He had so much that by the end of his life, he spread his fortunes across the ocean floor, spreading the joy of plundering and treasure hunting, hoping that one day, the next pirate generation would earn his $BOOTY the same way.<br></br> <br></br>
+                    The Baron was a terrifying pirate that roamed the seas of the Metaverse. Over many decades he amassed a fabulous amount of treasure and $BOOTY, the greatest ever known. He had so much that by the end of his life, he spread his fortunes across the ocean floor, spreading the joy of plundering and treasure hunting, hoping that one day, the next pirate generation would earn his $BOOTY the same way.<br></br> <br></br>
 
                 The time has come for Phase 1: the Age of Pirates. <br></br> <br></br>
 
@@ -21,25 +21,21 @@ const WhitePaper = () => {
 
                 <ul>
                     <li>
-                        Pirate Hunters adds an element of the typical RPG to the novel idea of Tokenomics and risk protocol within a fully decentralized platform, using interactions between ERC-20 and ERC-721 tokens to create a compelling game of tag between the Pirates and the Bounty Hunters.
+                        Pirate Hunters adds an element of the typical RPG to the novel idea of Tokenomics and risk protocol within a fully decentralized platform, using interactions between ERC-20 and ERC-721 tokens to create a compelling game of chicken between the Pirates and the Bounty Hunters.
+                <br></br> <br></br>
+                Pirate Hunters is 100% On-Chain, including our randomizers, which means our minting operation and risk protocol mechanics are secure, transparent, and fair to all players.
                     </li>
 
                 </ul>
                 <br></br> <br></br>
                 <p>Rules:</p>
-                10000 total mintable, Max mint 2 Pirates per wallet. 2500 WL Gen 0 @ 0.069420 per. 50% will turn into Bounty hunters by chance.
+                
+                Pirate Hunter’s is a collection of 10,000 Gen 0 NFTs where Pirates and Bounty Hunters fight for $BOOTY. Each wallet will be able to mint 2 NFT's. 2500 total whitelist will be given out prior to launch. Each mint will be priced at 0.069420 per NFT. You will have a 50% chance of getting a Bounty Hunter or Pirate at mint, and have the option to stake immediately.
                 <br></br> <br></br>
-                Pirate Hunter’s is a collection of 10,000 Gen 0 NFTs where Pirates and Bounty Hunter’s fight for $BOOTY. Each wallet will be able to mint 2 Pirates. 2500 total whitelist will be given out prior to launch. Each mint will be priced at 0.069420 per NFT. You will have a 50% chance of getting a Bounty Hunter or Pirate once reveal happens.
-                <br></br> <br></br>
-                All Pirates will start as Rank C. Rank B and Rank A will be earned through RANKUP, paid for by $BOOTY through the website.
-                <br></br> <br></br>
-                There will be a max cap of 1,000,000,000 (1 billion) $BOOTY tokens. The Baron has only released a map of where the first 250,000,000 (250 million) $BOOTY tokens are hidden. Each phase will unlock the next tranche of 250M, with 250M unlocked to the developers after 2 years. When the first tranche of $BOOTY tokens have been discovered, Phase 2 - The New World Order, shall begin.
-                <br></br> <br></br>
-                $BOOTY paid to the Shop, through Bounties, and through Bounty Hunters unstaking. Tax will be burned.
+                All Pirates will start as Rank C. Rank B and Rank A will be earned through RANKUP, paid for by $BOOTY through the website. Bounty Hunters do not have ranks.
                 <br></br> <br></br>
                 <p>Pirates:</p>
-                Staked Pirates will accumulate 10,000 $BOOTY Tokens per day max. If the pirates rob the Bounty hunters, they may accumulate past the 10k limit per day.
-                $BOOTY can only be retrieved when unstaking, with a minimum of 20,000 $BOOTY to unstake. However, there are great risks with unstaking with more than 50,000 $BOOTY.
+                    Staked Pirates will accumulate 10,000 $BOOTY Tokens per day max. If $BOOTY is earned from other sources apart from daily salary, thhey may accumulate past the 10k limit per day. $BOOTY can only be retrieved when unstaking, with a minimum of 20,000 $BOOTY to unstake. However, there are great risks with unstaking with more than 50,000 $BOOTY.
                 <br></br> <br></br>
                 Unstaking a pirate  comes with many risks:
                 <br></br>
@@ -61,7 +57,7 @@ const WhitePaper = () => {
                 Unstaking a Bounty Hunter with more than 50,000 $BOOTY to your wallet comes with risks as well:
 
                 <ul>
-                    <li> BH with more than 50,000 $BOOTY get robbed back, with the pirates taking 50% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank C: 20%, Rank B: 30%, Rank A: 50%). Rank UP details announced after Phase 1 begins.
+                    <li> BH with more than 50,000 $BOOTY are robbed back, with the pirates taking 50% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. After the
                     </li>
                     <li>$BOOTY Utility & Bounties: Details announced after Phase 1 begins.</li>
                 </ul>
@@ -88,7 +84,7 @@ const WhitePaper = () => {
                         </tr>
                         <tr>
                             <td>BH {">"} 50k</td>
-                            <td>50% robbed back by the staked pirates (of which Rank C: 20%, Rank B: 30%, Rank A: 50%) 50% burned.
+                            <td>50% robbed back by the staked pirates (divided by ranks) 50% burned.
                                 Rank UP system to be released shortly.
                             </td>
 
