@@ -48,11 +48,11 @@ const Description = () => {
 
                     <div className="level-2">
                         <div className="level-3 left" style={{ overflowY: "scroll" }}>
-                         {  isShopOpen ? <Items /> : <div><p> To view shop items here,</p> <h1>MINT</h1></div>}
+                         {  isShopOpen ? <Items /> : <div><p> To view shop,</p> <h1>MINT</h1></div>}
                         </div>
 
                         <div className="level-3 right">
-                            <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet</p>
+                            <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet. Launch on January 7th 2022</p>
                             {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> <span>{countDown.hours}H</span> <span>{countDown.minutes}M</span> <span>{countDown.seconds}S</span></p>}
                             
 
