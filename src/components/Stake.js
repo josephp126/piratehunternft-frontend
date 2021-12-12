@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import StakeLoading from "../gifs/stakeLoading.gif"
 import ConnectLoading from "../gifs/mintingLoading.gif"
 import TradeLoading from "../gifs/tradeLoad.gif"
+
 
 const Stake = () => {
     const [isStakeOpen, setIsStakeopen] = useState(false)
@@ -31,6 +32,7 @@ const Stake = () => {
     }, 3000)
 
     return (
+
         <div className=" stake-container">
             <div className={isStakeOpen ? "img open" : "img"}>
                 <img src={StakeLoading} alt="loading gif" />
@@ -47,7 +49,7 @@ const Stake = () => {
                         <div className="stake-3-left">
                             <div className="top">
                                 <h3>UNSTAKED:</h3>
-                                <button onClick={handleConnectLoading}>CONNECT WALLET</button>
+                                <button onClick={handleConnectLoading} disabled>CONNECT WALLET</button>
                             </div>
                             <div className="bottom">
                                 <h3>STAKED:</h3>
@@ -61,11 +63,11 @@ const Stake = () => {
                             <div className="bottom">
                                 <div>
                                     <p>TOTAL $BOOTY IN WALLET:</p>
-                                    <h1>10000</h1>
+                                    <h1>0</h1>
                                 </div>
                                 <div>
                                     <p>TOTAL $BOOTY UNCLAIMED:</p>
-                                    <h1>10000</h1>
+                                    <h1>0</h1>
                                 </div>
                             </div>
 
@@ -75,11 +77,11 @@ const Stake = () => {
             </div>
             <div className="btn">
             <div className="button" >
-                <button onClick={handleStakeLoading}>STAKE</button>
-                <button onClick={handleStakeLoading}>UNSTAKE</button>
+                <button onClick={handleStakeLoading} disabled>STAKE</button>
+                <button onClick={handleStakeLoading} disabled>UNSTAKE</button>
             </div>
             <div className="button">
-                <button onClick={handleTradeLoading}>TRADE</button>
+                <button onClick={handleTradeLoading} disabled>TRADE</button>
             </div>
             </div>
         </div>

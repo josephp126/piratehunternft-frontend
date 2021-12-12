@@ -8,7 +8,7 @@ const Description = () => {
     const [isMintOpen, setIsMintopen] = useState(false)
     const [isPurchaseOpen, setIsPurchaseopen] = useState(false)
     const [counter, setCounter] = useState(0)
-    const {isShopOpen, openShop} = useContext(ToggleContext)
+    const {isShopOpen, openShop, Difference, countDown} = useContext(ToggleContext)
 
     const handleMintLoading = () =>{
         setIsMintopen(true)
@@ -35,8 +35,6 @@ const Description = () => {
         
     }, 3000)
 
-
-
   
 
     return (
@@ -55,8 +53,8 @@ const Description = () => {
 
                         <div className="level-3 right">
                             <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet</p>
-
-                            <p>Launch in: <span>2D</span> <span>15H</span> <span>19M</span> <span>12S</span></p>
+                            {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> <span>{countDown.hours}H</span> <span>{countDown.minutes}M</span> <span>{countDown.seconds}S</span></p>}
+                            
 
                             <div>
                                 <p>0/10,000</p>
@@ -66,13 +64,13 @@ const Description = () => {
                                     <div onClick={()=>{handleMainCounter("add")}}>+</div>
                                 </div>
 
-                                <button onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}}>MINT</button>
+                                <button  onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}} disabled>MINT</button>
                                 <input type="checkbox"  defaultChecked/><label style={{marginLeft:"5px"}}>Stake at Mint</label>
                                 <br></br><br></br>
                             </div>
                         </div>
                     </div>
-                    <button onClick={handlePurchaseLoading} >PURCHASE</button>
+                    <button onClick={handlePurchaseLoading} disabled>PURCHASE</button>
                 </div>
     )
 }
