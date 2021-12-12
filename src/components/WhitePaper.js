@@ -17,7 +17,7 @@ const WhitePaper = () => {
 
                 The time has come for Phase 1: the Age of Pirates. <br></br> <br></br>
 
-                On <em>January 7th, 9PM EST</em>  , the next generation of 10,000 Pirates will be born into the Metaverse, hungry to strike rich. Half will change professions and turn on their crew. 5,000 greedy Bounty Hunters will be born, stopping at nothing to prevent the pirates from finding and keeping all the $BOOTY for themselves. Who will you be, a Pirate or a Bounty Hunter?<br></br> <br></br>
+                On <em>January 7th 2022</em>  , the next generation of 10,000 Pirates will be born into the Metaverse, hungry to strike rich. Half will change professions and turn on their crew. 5,000 greedy Bounty Hunters will be born, stopping at nothing to prevent the pirates from finding and keeping all the $BOOTY for themselves. Who will you be, a Pirate or a Bounty Hunter?<br></br> <br></br>
 
                 <ul>
                     <li>
