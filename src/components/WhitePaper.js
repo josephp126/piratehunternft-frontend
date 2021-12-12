@@ -35,29 +35,29 @@ const WhitePaper = () => {
                 All Pirates will start as Rank C. Rank B and Rank A will be earned through RANKUP, paid for by $BOOTY through the website. Bounty Hunters do not have ranks.
                 <br></br> <br></br>
                 <p>Pirates:</p>
-                    Staked Pirates will accumulate 10,000 $BOOTY Tokens per day max. If $BOOTY is earned from other sources apart from daily salary, thhey may accumulate past the 10k limit per day. $BOOTY can only be retrieved when unstaking, with a minimum of 20,000 $BOOTY to unstake. However, there are great risks with unstaking with more than 50,000 $BOOTY.
+                    Staked Pirates will accumulate 10,000 $BOOTY Tokens per day max. If $BOOTY is earned from other sources apart from daily salary, they may accumulate past the 10k limit per day. $BOOTY can be claimed without unstaking, with a minimum of 20,000 $BOOTY to unstake. However, there are great risks with claiming more than 50,000 $BOOTY.
                 <br></br> <br></br>
-                Unstaking a pirate  comes with many risks:
+                Claiming $BOOTY from a pirate  comes with many risks:
                 <br></br>
                 <ol>
                     <li> 40% $BOOTY to be taxed (90% recovered by all staked Bounty Hunters, split evenly, 10% burned)</li>
-                    <li>Unstaking holding more than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
+                    <li> If claiming from a pirate withmore than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
                     <li>$BOOTY Utility & Rank UP: Details announced after Phase 1 begins. </li>
                 </ol>
                 <br></br> <br></br>
 
                 <p>BountyHunters:</p>
-                Staked Bounty Hunters will recover 90% of $BOOTY collected from unstaking Pirates tax. In addition, they will each earn 3000 $BOOTY a day.
+                Staked Bounty Hunters will recover 90% of $BOOTY collected from Pirates' tax. In addition, they will each earn 3000 $BOOTY a day.
 
                 <ul>
-                    <li> Bounty hunters unstaking with less than 50,000 $BOOTY pay 20% tax (100% burned)</li>
+                    <li> Bounty hunters claiming with less than 50,000 $BOOTY pay 20% tax (100% burned)</li>
                 </ul>
 
                 <br></br> <br></br>
-                Unstaking a Bounty Hunter with more than 50,000 $BOOTY to your wallet comes with risks as well:
+                Claiming from a Bounty Hunter holding more than 50,000 $BOOTY to your wallet comes with risks as well:
 
                 <ul>
-                    <li> BH with more than 50,000 $BOOTY are robbed back, with the pirates taking 50% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. After the
+                    <li> BH claiming more than 50,000 $BOOTY are robbed back, with the pirates taking 50% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. 
                     </li>
                     <li>$BOOTY Utility & Bounties: Details announced after Phase 1 begins.</li>
                 </ul>
@@ -65,7 +65,7 @@ const WhitePaper = () => {
                 <table className="white">
                     <thead>
                         <tr>
-                            <th>Unstake to collect $BOOTY to wallet</th>
+                            <th>Claiming / Unstaking to collect $BOOTY</th>
                             <th>Risk</th>
                         </tr>
                     </thead>
