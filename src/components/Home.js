@@ -19,7 +19,7 @@ const Home = () => {
                 <Leaderboard/>
                 <Description/>
             </div>
-            <Link to="/termsofservice"><button>TERMS OF SERVICES</button></Link>
+            <Link to="/termsofservice"><button className="btn_term">TERMS OF SERVICES</button></Link>
 
         </div>
     )
