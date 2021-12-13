@@ -11,7 +11,6 @@ const ToggleContextProvider = (props) => {
         seconds: ""
     })
 
-
     const openMap = () =>{
         setIsMapOpen(true)
     }
@@ -31,11 +30,10 @@ const ToggleContextProvider = (props) => {
 
     const Days = Math.floor(Difference / (1000 * 60 * 60 * 24))
     const Hours = Math.floor((Difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  const Minutes = Math.floor((Difference % (1000 * 60 * 60)) / (1000 * 60));
-  const Seconds = Math.floor((Difference % (1000 * 60)) / 1000);
+    const Minutes = Math.floor((Difference % (1000 * 60 * 60)) / (1000 * 60));
+    const Seconds = Math.floor((Difference % (1000 * 60)) / 1000);
 
   useEffect(()=>{
-
      const timer = setInterval(()=>{
             setCountDown({
                 days: Days,
@@ -44,13 +42,8 @@ const ToggleContextProvider = (props) => {
                 seconds: Seconds
             })
         }, 1000)
-
         return () => clearTimeout(timer);
-
-  })
-
-
-   
+  })  
     return (
         <ToggleContext.Provider value={{isMapOpen, openMap, closeMap, isShopOpen, openShop, countDown, Difference}}>
                     {props.children}

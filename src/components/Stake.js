@@ -15,9 +15,9 @@ const Stake = () => {
     const handleConnectLoading = () => {
         setIsConnectopen(true)
     }
-    const handleTradeLoading = () => {
-        setIsTradeopen(true)
-    }
+    // const handleTradeLoading = () => {
+    //     setIsTradeopen(true)
+    // }
 
     isStakeOpen && setTimeout(() => {
         setIsStakeopen(false)
@@ -58,7 +58,7 @@ const Stake = () => {
                         </div>
                         <div className="stake-3-right">
                             <div className="top">
-                                <h3>ITEMS:</h3>
+                                <h3>ACTIVE ITEMS:</h3>
                             </div>
                             <div className="bottom">
                                 <div>
@@ -78,11 +78,12 @@ const Stake = () => {
             <div className="btn">
             <div className="button" >
                 <button onClick={handleStakeLoading} disabled>STAKE</button>
+                <button onClick={handleStakeLoading} disabled>CLAIM</button>
                 <button onClick={handleStakeLoading} disabled>UNSTAKE</button>
             </div>
-            <div className="button">
+            {/* <div className="button">
                 <button onClick={handleTradeLoading} disabled>TRADE</button>
-            </div>
+            </div> */}
             </div>
         </div>
     )
