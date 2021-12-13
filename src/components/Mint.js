@@ -2,8 +2,6 @@ import React, {useState, useContext} from 'react'
 import MintLoad from "../gifs/mintingLoading.gif"
 import { ToggleContext } from '../contexts/ToggleContext.js'
 
-
-
 const Mint = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [counter, setCounter] = useState(0)
@@ -34,7 +32,7 @@ const Mint = () => {
             <div>
                 <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022</p>
 
-                {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> <span>{countDown.hours}H</span> <span>{countDown.minutes}M</span> <span>{countDown.seconds}S</span> </p>}
+                {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> </p>}
 
                 <div>
                     <p>{counter}/10,000</p>
