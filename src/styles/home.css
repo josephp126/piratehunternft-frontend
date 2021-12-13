@@ -416,7 +416,7 @@ tr td .counter > div:nth-of-type(3){
   margin-top: 20px;
 }
 
-button{
+/* button{
     height: 45px;
     margin: 20px auto !important;
     width: 200px;
@@ -430,7 +430,7 @@ button{
     border-top: 2px solid #F9B971;
     border-bottom: 2px solid #C3741A;
     cursor: pointer;
-}
+} */
 
 .stake-1 button{
     width: 150px;
