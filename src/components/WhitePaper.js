@@ -75,7 +75,7 @@ const WhitePaper = () => {
                             <td>40% tax (recovered by all staked BH, split evenly,)</td>
                         </tr>
                         <tr>
-                            <td>Pirate {">"}</td>
+                            <td>Pirate {">"} 50k</td>
                             <td>50% chance that all BOOTY is recovered by the BH’s. 60% split evenly among staked BH, 40% burned.</td>
                         </tr>
                         <tr>
