@@ -7,7 +7,7 @@ import { ToggleContext } from '../contexts/ToggleContext.js'
 const Mint = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [counter, setCounter] = useState(0)
-    const {openShop} = useContext(ToggleContext)
+    const {openShop, Difference, countDown} = useContext(ToggleContext)
    
 
     const handleMintLoading = () => {
@@ -34,7 +34,7 @@ const Mint = () => {
             <div>
                 <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022</p>
 
-                <p>Launch in: <span>2D</span> <span>15H</span> <span>19M</span> <span>12S</span></p>
+                {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> <span>{countDown.hours}H</span> <span>{countDown.minutes}M</span> <span>{countDown.seconds}S</span> </p>}
 
                 <div>
                     <p>{counter}/10,000</p>
@@ -44,7 +44,7 @@ const Mint = () => {
                         <div onClick={() => { handleMainCounter("add") }}>+</div>
                     </div>
 
-                    <button onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}}>MINT</button>
+                    <button onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}} disabled>MINT</button>
                                                     <input type="checkbox"  defaultChecked/><label style={{marginLeft:"5px"}}>Stake at Mint</label>
 
                 </div>

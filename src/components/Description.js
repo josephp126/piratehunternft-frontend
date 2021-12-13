@@ -52,8 +52,8 @@ const Description = () => {
                         </div>
 
                         <div className="level-3 right">
-                            <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet. Launch on January 7th 2022</p>
-                            {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> </p>}
+                            <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022. 9PM EST</p>
+                            {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> <span>{countDown.hours}H</span><span>{countDown.minutes}M</span> <span>{countDown.seconds}S</span> </p>}
                             
 
                             <div>

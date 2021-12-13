@@ -97,7 +97,7 @@ button{
     display: block;
     width: 200px;
     height: 45px;
-    margin: 20px auto;
+    margin: 15px auto;
     color: white;
     background: #E7973D;
     font-weight: bold;
@@ -456,6 +456,8 @@ tr td .counter > div:nth-of-type(3){
 .mint{
     display: none;
     margin-top: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1030px){
