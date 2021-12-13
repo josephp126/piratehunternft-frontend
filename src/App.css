@@ -38,7 +38,7 @@
   display: flex;
 }
 
-.whitepaper{
+.whitepaper, .terms{
    width: 100%;
   height: 100%;
   display: flex;
@@ -53,7 +53,7 @@
   display: flex;
 }
 
-.whitepaper i{
+.whitepaper i, .terms i{
   font-size: 40px;
   color: red;
   cursor: pointer;
@@ -62,7 +62,11 @@
   display: block;
   background: #c3741a;
 }
-.whitepaper > div{
+
+.terms i{
+  background: black;
+}
+.whitepaper > div, .terms > div{
   width: 90%;
   background: #c3741a;
   color: white;
@@ -71,9 +75,14 @@
   letter-spacing: 1px;
 
 }
+.terms > div{
+  background: black;
+
+
+}
 
 @media screen and (max-width: 500px) {
-  .whitepaper, .roadmap{
+  .whitepaper, .roadmap, .terms{
     margin-top: 172px;
   }
 }
