@@ -30,7 +30,7 @@ const WhitePaper = () => {
                 <br></br> <br></br>
                 <p>Rules:</p>
                 
-                Pirate Hunter’s is a collection of 30,000 NFTs where Pirates and Bounty Hunter’s fight for $BOOTY. Each wallet will be able to mint 2 NFT’s. 2500 total whitelist will be given out prior to launch. Each mint will be priced at 0.069420 per NFT. You will have a 50% chance of getting a Bounty Hunter or Pirate at mint, and have the option to stake immediately. Gen 0 will be mintable with ETH, and Gen 1 & 2 will be mintable with $BOOTY at the start of each new phase.
+                Pirate Hunter’s is a collection of 30,000 NFTs where Pirates and Bounty Hunter’s fight for $BOOTY. Each wallet will be able to mint 2 NFT’s. 500 total whitelist will be given out prior to launch. Each mint will be priced at 0.069420 per NFT. You will have a 50% chance of getting a Bounty Hunter or Pirate at mint, and have the option to stake immediately. Gen 0 will be mintable with ETH, and Gen 1 & 2 will be mintable with $BOOTY at the start of each new phase.
                 <br></br> <br></br>
                 All Pirates will start as Rank C. Rank B and Rank A will be earned through RANKUP, paid for by $BOOTY through the website. Bounty Hunters do not have ranks.
                 <br></br> <br></br>
@@ -41,7 +41,7 @@ const WhitePaper = () => {
                 <br></br>
                 <ol>
                     <li> 40% $BOOTY to be taxed (90% recovered by all staked Bounty Hunters, split evenly, 10% burned)</li>
-                    <li> If claiming from a pirate withmore than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
+                    <li> If claiming from a pirate with more than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
                     <li>$BOOTY Utility & Rank UP: Details announced after Phase 1 begins. </li>
                 </ol>
                 <br></br> <br></br>
@@ -49,15 +49,11 @@ const WhitePaper = () => {
                 <p>BountyHunters:</p>
                 Staked Bounty Hunters will recover 90% of $BOOTY collected from Pirates' tax. In addition, they will each earn 3000 $BOOTY a day.
 
-                <ul>
-                    <li> Bounty hunters claiming with less than 50,000 $BOOTY pay 20% tax (100% burned)</li>
-                </ul>
-
                 <br></br> <br></br>
-                Claiming from a Bounty Hunter holding more than 50,000 $BOOTY to your wallet comes with risks as well:
+                Claiming from a Bounty Hunter holding more than 20,000 $BOOTY to your wallet comes with risks as well:
 
                 <ul>
-                    <li> BH claiming more than 50,000 $BOOTY are robbed back, with the pirates taking 50% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. 
+                    <li> BH claiming more than 20,000 $BOOTY are robbed back, with the pirates taking 30% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. 
                     </li>
                     <li>$BOOTY Utility & Bounties: Details announced after Phase 1 begins.</li>
                 </ul>
@@ -79,12 +75,8 @@ const WhitePaper = () => {
                             <td>50% chance that all BOOTY is recovered by the BH’s. 60% split evenly among staked BH, 40% burned.</td>
                         </tr>
                         <tr>
-                            <td>BH {"<"} 50k</td>
-                            <td>20% tax (burned)</td>
-                        </tr>
-                        <tr>
-                            <td>BH {">"} 50k</td>
-                            <td>50% robbed back by the staked pirates (divided by ranks) 50% burned.
+                            <td>BH {">"} 20k</td>
+                            <td>30% robbed back by the staked pirates (divided by ranks) 70% burned.
                                 Rank UP system to be released shortly.
                             </td>
 
