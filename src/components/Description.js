@@ -7,20 +7,20 @@ import { ToggleContext } from '../contexts/ToggleContext.js'
 const Description = () => {
     const [isMintOpen, setIsMintopen] = useState(false)
     const [isPurchaseOpen, setIsPurchaseopen] = useState(false)
-    const [counter, setCounter] = useState(0)
+    // const [counter, setCounter] = useState(0)
     const {isShopOpen, openShop, Difference, countDown} = useContext(ToggleContext)
 
     const handleMintLoading = () =>{
         setIsMintopen(true)
     }
 
-    const handleMainCounter = (action) =>{
-        if(action === "sub"){
-            counter > 0 && setCounter(counter-1)
-        } else{
-            counter < 2 && setCounter(counter+1)
-        }
-    }
+    // const handleMainCounter = (action) =>{
+    //     if(action === "sub"){
+    //         counter > 0 && setCounter(counter-1)
+    //     } else{
+    //         counter < 2 && setCounter(counter+1)
+    //     }
+    // }
 
     isMintOpen  && setTimeout(()=>{
         setIsMintopen(false)
@@ -73,7 +73,7 @@ const Description = () => {
                                 <p>0/30,000 Minted</p>
 
                                 <button  onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}} disabled>MINT</button>
-                                <label style={{display: "inline-block"}} htmlFor="stake" style={{marginLeft:"5px"}}>Stake at Mint</label><input type="checkbox" name="stake"  defaultChecked/>
+                                <label htmlFor="stake" style={{marginLeft:"5px"}}>Stake at Mint</label><input type="checkbox" name="stake"  defaultChecked/>
                                
                             {/* </div> */}
                         </div>

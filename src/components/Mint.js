@@ -4,7 +4,7 @@ import { ToggleContext } from '../contexts/ToggleContext.js'
 
 const Mint = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const [counter, setCounter] = useState(0)
+    // const [counter, setCounter] = useState(0)
     const {openShop, Difference, countDown} = useContext(ToggleContext)
    
 
@@ -16,13 +16,13 @@ const Mint = () => {
         setIsOpen(false)
     }, 3000)
 
-    const handleMainCounter = (action) => {
-        if (action === "sub") {
-            counter > 0 && setCounter(counter - 1)
-        } else {
-            counter < 2 && setCounter(counter + 1)
-        }
-    }
+    // const handleMainCounter = (action) => {
+    //     if (action === "sub") {
+    //         counter > 0 && setCounter(counter - 1)
+    //     } else {
+    //         counter < 2 && setCounter(counter + 1)
+    //     }
+    // }
 
     return (
         <div className="mint">
