@@ -202,7 +202,14 @@ h3{
     font-weight: bold;
 }
 
-
+.act_text{
+    color: black;
+     width:30%;
+     text-align:left;
+      text-transform: uppercase;
+       position: absolute;
+       top:105%;
+}
 
 table{
     width: 100%;
@@ -269,7 +276,6 @@ table{
 
 .bar > div{
     flex: 1;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,6 +288,16 @@ table{
     border-right: 1px solid white;
 }
 
+.one-third{
+    font-size: 10px !important;
+    position: absolute !important;
+    width: 90% !important;
+    margin: 5px auto;
+    display: flex !important;
+    justify-content: space-between !important;
+    text-align: center !important;
+    top: 100% !important;
+}
 
 
 
@@ -550,6 +566,7 @@ tr td .counter > div:nth-of-type(3){
 
     .description{
         grid-area: description;
+
     }
 
     .board{
@@ -646,7 +663,14 @@ tr td .counter > div:nth-of-type(3){
 
 }
 
-
+@media screen and (max-width: 600px){
+    .act_text{
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+        transform: translateY(-12px);
+    }
+}
 @media screen and (max-width: 400px){
     .btn{
         width: 100%

@@ -36,11 +36,13 @@ const Mint = () => {
 
                 <div>
                 <div className="bar">
-                                    <div style={{height: "100%", background:"red", width:"12%", position: "absolute"}}></div>
+                                    <div style={{height: "100%", background:"red", width:"0%", position: "absolute"}}></div>
                                     <div>Gen 0</div>
                                     <div className="mid">20k $Booty</div>
                                     <div>40k $Booty</div>
+                                    <div className='one-third'><p>10,000</p> <p>10,000</p> <p>10,000</p></div>
                                 </div>
+                                <br></br>
                                 <br></br>
                                 <p>0/30,000 Minted</p>
 
