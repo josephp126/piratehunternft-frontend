@@ -65,7 +65,7 @@ const Description = () => {
                                 </div> */}
 
                                 <div className="bar">
-                                    <div style={{height: "100%", background:"red", width:"12%", position: "absolute"}}></div>
+                                    <div style={{height: "100%", background:"red", width:"10%", position: "absolute"}}></div>
                                     <div>Gen 0</div>
                                     <div className="mid">20k $Booty</div>
                                     <div>40k $Booty</div>
@@ -73,7 +73,7 @@ const Description = () => {
                                 <p>0/30,000 Minted</p>
 
                                 <button  onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}} disabled>MINT</button>
-                                <label htmlFor="stake" style={{marginLeft:"5px"}}>Stake at Mint</label><input type="checkbox" name="stake"  defaultChecked/>
+                                <div><input type="checkbox" name="stake" defaultChecked/> <label htmlFor="stake" >Stake at Mint</label></div>
                                
                             {/* </div> */}
                         </div>
