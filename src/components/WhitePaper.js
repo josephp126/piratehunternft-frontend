@@ -43,7 +43,7 @@ const WhitePaper = () => {
                     <li> 40% $BOOTY to be taxed (90% recovered by all staked Bounty Hunters, split evenly, 10% burned)</li>
                     <li> If claiming from a pirate with more than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
                     <li> $BOOTY UTILITY: Staked Pirates can access and buy limited items (untradeable) through the Pirates only Shop with $BOOTY from their wallet. 50% of $BOOTY revenue is burned, 50% to the Baron, who will sweep the floor from time to time. </li>
-                
+                </ol>
                 <br></br> <br></br>
                 These items may include:
 
@@ -103,6 +103,8 @@ const WhitePaper = () => {
                 <div>In this thrilling game of NFT chicken, the risks and rewards are spread evenly. $BOOTY will be earned through loyalty and perseverance.</div>
                 <br></br>
                 <div><b>Total $BOOTY in circulation and details to be announced on mint day. </b></div>
+                    </div>
+</div>
         
         </Link>
     )
