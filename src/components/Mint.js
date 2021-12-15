@@ -30,7 +30,7 @@ const Mint = () => {
                 <img src={MintLoad} alt="loading gif" />
             </div>
             <div>
-                <p >The price per pirate is <span className="eth">0.069429 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022</p>
+                <p >The price per pirate is <span className="eth">0.08 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022</p>
 
                 {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> </p>}
 
