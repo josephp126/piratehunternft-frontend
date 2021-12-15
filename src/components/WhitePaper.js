@@ -103,7 +103,7 @@ const WhitePaper = () => {
                 <div>In this thrilling game of NFT chicken, the risks and rewards are spread evenly. $BOOTY will be earned through loyalty and perseverance.</div>
                 <br></br>
                 <div><b>Total $BOOTY in circulation and details to be announced on mint day. </b></div>
-        </div>
+        
         </Link>
     )
 }
