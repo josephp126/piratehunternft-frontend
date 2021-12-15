@@ -43,15 +43,23 @@ const WhitePaper = () => {
                     <li> 40% $BOOTY to be taxed (90% recovered by all staked Bounty Hunters, split evenly, 10% burned)</li>
                     <li> If claiming from a pirate with more than 50,000 $BOOTY, 50% chance that 60% of the $BOOTY will be given to the BH, 40% burned forever. </li>
                     <li> $BOOTY UTILITY: Staked Pirates can access and buy limited items (untradeable) through the Pirates only Shop with $BOOTY from their wallet. 50% of $BOOTY revenue is burned, 50% to the Baron, who will sweep the floor from time to time. </li>
-<li>These items may include: </li>
-<li>Defensive Items to decrease $BOOTY tax.</li>
-<li>Offensive items to increase $BOOTY production and capacity.</li>
-<li>Limited Edition Rare Treasures and 1/1 NFT’s</li>
-<li>Items to be able to protect Pirates from being captured by Bounty Hunters if unstaking and holding more than 50,000 $BOOTY (higher chance of keeping all BOOTY).</li>
+                
+                <br></br> <br></br>
+                These items may include:
 
-<li>Pirates will be able to buy upgrades to Rank Up directly from the shop website.</li>
-. </li>
-                </ol>
+                <ul>
+                    <li>Defensive Items to decrease $BOOTY tax.
+                    </li>
+                    <li>Offensive items to increase $BOOTY production and capacity.
+                    </li>
+                    <li>Limited Edition Rare Treasures and 1/1 NFT’s
+                    </li>
+                    <li>Items to be able to protect Pirates from being captured by Bounty Hunters if unstaking and holding more than 50,000 $BOOTY (higher chance of keeping all BOOTY).
+                    </li>
+
+                    <li>Pirates will be able to buy upgrades to Rank Up directly from the shop website.</li>
+                    </li>
+                </ul>
                 <br></br> <br></br>
 
                 <p>BountyHunters:</p>
