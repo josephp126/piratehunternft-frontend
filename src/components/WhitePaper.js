@@ -30,7 +30,7 @@ const WhitePaper = () => {
                 <br></br> <br></br>
                 <p>Rules:</p>
                 
-                Pirate Hunter’s is a collection of 30,000 NFTs where Pirates and Bounty Hunter’s fight for $BOOTY. Each wallet will be able to mint 2 NFT’s. Each mint will be priced at 0.069420 per NFT. You will have a 50% chance of getting a Bounty Hunter or Pirate at mint, and have the option to stake immediately. Gen 0 will be mintable with ETH, and Gen 1 & 2 will be mintable with $BOOTY at the start of each new phase.
+                Pirate Hunter’s is a collection of 30,000 NFTs where Pirates and Bounty Hunter’s fight for $BOOTY. Each wallet will be able to mint 2 NFT’s. Each mint will be priced at 0.08 per NFT & 0.05 ETH for Whitelist. You will have a 50% chance of getting a Bounty Hunter or Pirate at mint, and have the option to stake immediately. Gen 0 will be mintable with ETH, and Gen 1 & 2 will be mintable with $BOOTY at the start of each new phase.
                 <br></br> <br></br>
                 All Pirates will start as Rank C. Rank B and Rank A will be earned through RANKUP, paid for by $BOOTY through the website. Bounty Hunters do not have ranks.
                 <br></br> <br></br>
