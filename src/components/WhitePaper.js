@@ -57,7 +57,7 @@ const WhitePaper = () => {
                     <li>Items to be able to protect Pirates from being captured by Bounty Hunters if unstaking and holding more than 50,000 $BOOTY (higher chance of keeping all BOOTY).
                     </li>
 
-                    <li>Pirates will be able to buy upgrades to Rank Up directly from the shop website.</li>
+                    <li>Pirates will be able to buy upgrades to Rank Up directly from the shop website.
                     </li>
                 </ul>
                 <br></br> <br></br>
