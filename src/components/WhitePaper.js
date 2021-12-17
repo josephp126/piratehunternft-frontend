@@ -57,9 +57,13 @@ const WhitePaper = () => {
                     <li>Items to be able to protect Pirates from being captured by Bounty Hunters if unstaking and holding more than 50,000 $BOOTY (higher chance of keeping all BOOTY).
                     </li>
 
-                    <li>Pirates will be able to buy upgrades to Rank Up directly from the shop website.
+                    <li>Pirates will be able to buy upgrades to Rank Up directly from the shop.
                     </li>
-                </ul>
+                    <li> 1/1 Legendary Minters will be provided a large infusion of $BOOTY to purchase a rank B Rankup Gem (or anything else) from the start.
+                    </li> 
+                    <li>$BOOTY in circulation to be announced on game launch.
+                    </li>
+</ul>
                 <br></br> <br></br>
 
                 <p>BountyHunters:</p>
@@ -70,8 +74,14 @@ const WhitePaper = () => {
 
                 <ul>
                     <li> BH claiming more than 20,000 $BOOTY are robbed back, with the pirates taking 30% of the $BOOTY held by the BH, distributed by rank of Pirate (Rank B's will earn 25% more than Rank C and Rank A's will earn 50% more than Rank C). Rank UP details announced after Phase 1 begins. All Pirates are minted at Rank C to start, therefore distribution will be even throughout. 
+                </li>
+                <br></br> <br></br>
+
+                <p>Bounty Quests:</p>
+                Bounties are quests exclusively for BH holders - if they hold a Pirate with specific Property combinations in their wallet, they can redeem their Bounty Quest for $BOOTY. Higher ranked Bounties have higher difficulty, with more Pirate asset combinations required in the wallet, but also have much greater rewards.
+                
+                 <li> ie. Bounty Quests Rank C: Obtain a pirate with red pirate hat and eyepatch.   Reward: XX,XXX $BOOTY.
                     </li>
-                    <li>$BOOTY Utility & Bounties: Details announced after Phase 1 begins.</li>
                 </ul>
 
                 <table className="white">
