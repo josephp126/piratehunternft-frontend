@@ -12,7 +12,7 @@ const ToggleContextProvider = (props) => {
     })
 
     const openMap = () =>{
-        setIsMapOpen(false)
+        setIsMapOpen(true)
     }
 
     const closeMap = () =>{
