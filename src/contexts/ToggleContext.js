@@ -2,7 +2,7 @@ import {createContext, useState, useEffect} from "react"
 
 export const ToggleContext = createContext()
 const ToggleContextProvider = (props) => {
-    const [isMapOpen, setIsMapOpen] = useState(false)
+    const [isMapOpen, setIsMapOpen] = useState(true)
     const [isShopOpen, setIsShopOpen] = useState(true)
     const [countDown, setCountDown] = useState({
         days: "",
