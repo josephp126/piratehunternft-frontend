@@ -31,7 +31,7 @@ const Description = () => {
     }
 
     isPurchaseOpen && setTimeout(()=>{
-        setIsPurchaseopen(false)
+        setIsPurchaseopen(true)
         
     }, 3000)
 
