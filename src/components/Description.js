@@ -27,11 +27,11 @@ const Description = () => {
     }, 3000)
 
     const handlePurchaseLoading = ()=>{
-        setIsPurchaseopen(true)
+        setIsPurchaseopen(false)
     }
 
     isPurchaseOpen && setTimeout(()=>{
-        setIsPurchaseopen(true)
+        setIsPurchaseopen(false)
         
     }, 3000)
 
