@@ -18,7 +18,7 @@ const Description = () => {
     //     if(action === "sub"){
     //         counter > 0 && setCounter(counter-1)
     //     } else{
-    //         counter < 2 && setCounter(counter+1)
+    //         counter < 10 && setCounter(counter+1)
     //     }
     // }
 
