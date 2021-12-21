@@ -20,7 +20,7 @@ const Mint = () => {
     //     if (action === "sub") {
     //         counter > 0 && setCounter(counter - 1)
     //     } else {
-    //         counter < 2 && setCounter(counter + 1)
+    //         counter < 10 && setCounter(counter + 1)
     //     }
     // }
 
@@ -30,7 +30,7 @@ const Mint = () => {
                 <img src={MintLoad} alt="loading gif" />
             </div>
             <div>
-                <p >The price per pirate is <span className="eth">0.08 ETH</span>, max 2 per wallet, setting sail Jan 7th, 2022</p>
+                <p >The price per pirate is <span className="eth">0.08 ETH</span>, 0.05 ETH for WL, setting sail Jan 7th, 2022</p>
 
                 {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span> </p>}
 
