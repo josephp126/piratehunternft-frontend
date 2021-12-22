@@ -10,7 +10,7 @@ import "./SafeMath.sol";
 contract Booty is IBooty, ERC20, Ownable {
     using SafeMath for uint256;
 
-    uint256 private immutable _cap = 1e27;
+    uint256 private immutable _cap = 1e28;
 
   // Allowlist of addresses to mint or burn
   mapping(address => bool) public controllers;
