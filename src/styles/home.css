@@ -2,7 +2,7 @@
     width: 100%;
     padding: 40px;
     color: white;
-    font-family: Alagard;
+    font-family: retro_gaming;
     margin-top: 60px;
 }
 
@@ -23,7 +23,7 @@ td{
 }
 
 button{
-    font-family: Alagard !important
+    font-family: retro_gaming !important
 }
 /* LOADING GIFS  */
     .description > .img, .stake-container > .img{
