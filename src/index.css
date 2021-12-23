@@ -16,6 +16,12 @@
      url("./fonts/alagard/alagard.ttf") format("truetype");
     font-weight: bold;
     }
+  @font-face {
+    font-family: "retro_gaming";
+    src: local("retro_gaming"),
+     url("./fonts/retro_gaming/retro_gaming.ttf") format("truetype");
+    font-weight: bold;
+    }
   
     
   
