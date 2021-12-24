@@ -29,7 +29,7 @@ const Navbar = () => {
                     </div>  
                     </Link>
                     <div  className="right">
-                        <p><a href="https://twitter.com/PirateHunterNFT/"><i className="fab fa-twitter"></i></a></p>
+                        <p><a href="https://twitter.com/PirateHunters_/"><i className="fab fa-twitter"></i></a></p>
                         <p><a href="https://discord.gg/KS6aSgbsUr"><img src="https://img.icons8.com/ios-filled/30/ffffff/discord-logo.png" alt="discord"/></a></p>
                         <p><a href="https://www/opensea.io"><img src={Ship} alt="Ship"/></a></p>
                     </div>  
