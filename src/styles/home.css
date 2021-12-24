@@ -130,6 +130,8 @@ button{
     padding: 5px 15px;
 }
 
+
+
 .level-3 > div:nth-of-type(1){
     margin-top: 40px;
 }
@@ -669,16 +671,25 @@ tr td .counter > div:nth-of-type(3){
         transform: translateY(-12px);
         font-size: 11px !important;
     }
+    .stake-container p{
+        font-size: 12px;
+    }
+    .stake-container h1{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 400px){
     .btn{
         width: 100%
     }
+
+    
 }
 
 @media screen and (max-width: 375px){
     .stake-1{
         height: 400px;
     }
+
 }
 
