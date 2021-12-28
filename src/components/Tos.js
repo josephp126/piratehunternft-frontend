@@ -10,7 +10,7 @@ const Tos = () => {
                 <h1>TERMS & CONDITIONS</h1>
                 <p>Intro:</p>
 
-                This Pirate Hunters Game Terms and Conditions (this “Agreement”) is a legally binding agreement by and between The Pirate Hunters Game Developers (“us” or “we”) and any owner of any Pirate (defined below) (“you” or “Purchaser”). The Pirate Hunters Game Developers and each Purchaser may be referred to throughout this Agreement collectively as the “Parties” or individually as a “Party”. By purchasing or otherwise owning a Pirate, you acknowledge that you have carefully read and agree to the terms of this Agreement. <br></br>
+                This Pirate Hunters Game Terms and Conditions (this “Agreement”) is a legally binding agreement by and between 1000065327 ONTARIO INC. or "The Pirate Hunters Game Developers" (“us” or “we”) and any owner of any Pirate (defined below) (“you” or “Purchaser”). The Pirate Hunters Game Developers and each Purchaser may be referred to throughout this Agreement collectively as the “Parties” or individually as a “Party”. By purchasing or otherwise owning a Pirate, you acknowledge that you have carefully read and agree to the terms of this Agreement. <br></br>
 
                 This website and its connected services are provided “as is” and “as available” without warranty of any kind. By using this website you are accepting sole responsibility for any and all transactions involving Pirate Hunters Game digital collectibles.<br></br> <br></br>
 
