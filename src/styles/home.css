@@ -160,6 +160,21 @@ h3 {
     padding-bottom: 52px !important;
   }
 }
+
+@media only screen and (min-width: 1418px) {
+  .level-1.board .level-3 {
+    padding-top: 61px !important;
+    padding-bottom: 61px !important;
+  }
+}
+
+@media only screen and (min-width: 1623px) {
+  .level-1.board .level-3 {
+    padding-top: 71px !important;
+    padding-bottom: 71px !important;
+  }
+}
+
 .status .status-desc-wrapper {
   width: 95%;
   margin: 10px auto;
@@ -219,7 +234,7 @@ h3 {
   text-transform: uppercase;
   position: absolute;
   top: 105%;
-  font-size: 16px !important;
+  font-size: 13px !important;
 }
 
 table {
