@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="navbar">
                 <div className="wrapper">
                     <div  className="left">
-                        <Link style={{fontSize:"15px", textDecoration:"none", fontWeight:"bold"}} to="/whitepaper"><p>WHITEPAPER </p></Link>
+                        <Link style={{textDecoration:"none", fontWeight:"bold"}} to="/whitepaper"><p>WHITEPAPER </p></Link>
                         <p  onClick={handleMapOpen}>ROADMAP</p>
                     </div>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <div  className="right">
                         <p><a href="https://twitter.com/PirateHunterNFT/"><i className="fab fa-twitter"></i></a></p>
                         <p><a href="https://discord.gg/KS6aSgbsUr"><img src="https://img.icons8.com/ios-filled/30/ffffff/discord-logo.png" alt="discord"/></a></p>
-                        <p><a href="https://www/opensea.io"><img src={Ship} alt="Ship"/></a></p>
+                        <p><a href="https://www/opensea.io"><img src={Ship} alt="Ship" style={{width: "26px"}}/></a></p>
                     </div>  
                     </div> 
         </div>

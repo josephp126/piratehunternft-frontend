@@ -7,7 +7,7 @@ module.exports = {
         // "footer-texture": "url('/img/footer-texture.png')",
       },
       colors: {
-        primary: "#E7973D",
+        primary: "#eb8917",
         tranparent: "rgba(0, 0, 0, 0.74)",
       },
       fontFamily: {

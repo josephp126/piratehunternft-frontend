@@ -81,8 +81,8 @@ const Description = () => {
                             {/* </div> */}
                         </div>
                     </div>
-                    <button onClick={handlePurchaseLoading} disabled>PURCHASE</button>
-                                <p className='act_text'>Items are activated immediately upon purchase to save gas fees. Duplicate items do not stack </p>
+                    <button className='purchase' onClick={handlePurchaseLoading} disabled>PURCHASE</button>
+                    <p className='act_text'>Items are activated immediately upon purchase to save gas fees. Duplicate items do not stack </p>
                 </div>
     )
 }

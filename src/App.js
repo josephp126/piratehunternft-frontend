@@ -20,7 +20,6 @@ function App() {
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/whitepaper" element={<WhitePaper/>}/>
           <Route exact path="/termsofservice" element={<Tos/>}/>
-        
         </Routes>
       </Router>
     </div>

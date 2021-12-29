@@ -4,7 +4,7 @@ import GameStatus from "./GameStatus"
 import Leaderboard from "./Leaderboard"
 import Mint from "./Mint"
 import Stake from "./Stake"
-import {Link} from "react-router-dom"
+
 // import {useContext} from "react"
 // import { ToggleContext } from '../contexts/ToggleContext.js'
 
@@ -19,7 +19,7 @@ const Home = () => {
                 <Leaderboard/>
                 <Description/>
             </div>
-            <Link to="/termsofservice"><button className="btn_term">TERMS OF SERVICES</button></Link>
+           
 
         </div>
     )
