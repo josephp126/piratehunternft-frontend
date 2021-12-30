@@ -108,7 +108,7 @@ button {
   border-right: 2px solid #c3741a;
   border-top: 2px solid #f9b971;
   border-bottom: 2px solid #c3741a;
-  cursor: pointer;
+  cursor: not-allowed;
   /* margin-bottom: 100px; */
 }
 

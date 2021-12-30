@@ -72,7 +72,7 @@ const Description = () => {
                                 <br></br>
                                 <p>0/30,000 Minted</p>
 
-                                <button  onClick={()=>{handleMintLoading();}}>MINT</button>
+                                <button  onClick={()=>{handleMintLoading();}} disabled>MINT</button>
                                 <div><input type="checkbox" name="stake" defaultChecked/> <label htmlFor="stake" >Stake at Mint</label></div>
 
                                
