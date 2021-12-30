@@ -1,5 +1,7 @@
 import React, {useState, useContext} from 'react'
 import Items from "./Items.js"
+import Web3 from "web3"
+import PirateHunters from "../abi/PirateHunters.json"
 import MintLoading from "../gifs/mintingLoading.gif"
 import PurchaseLoading from "../gifs/purchaseLoading.gif"
 import { ToggleContext } from '../contexts/ToggleContext.js'
@@ -10,17 +12,24 @@ const Description = () => {
     // const [counter, setCounter] = useState(0)
     const {isShopOpen, openShop, Difference, countDown} = useContext(ToggleContext)
 
-    const handleMintLoading = () =>{
-        setIsMintopen(true)
-    }
+    const handleMintLoading = async () =>{
+        const web3 = new Web3(window.ethereum)
+        const _account = await web3.eth.getAccounts()
 
-    // const handleMainCounter = (action) =>{
-    //     if(action === "sub"){
-    //         counter > 0 && setCounter(counter-1)
-    //     } else{
-    //         counter < 10 && setCounter(counter+1)
-    //     }
-    // }
+        const contract = new web3.eth.Contract(
+            PirateHunters.abi,
+            PirateHunters["networks"]["5777"]["address"]
+        )
+
+        const _price = 0.05 * 10 ** 18;
+        const amount = 2;
+        const value = amount * _price;
+        await contract.methods.mint(amount, false).send({
+            from: _account[0],
+            value: value,
+        });
+        //setIsMintopen(true)
+    }
 
     isMintOpen  && setTimeout(()=>{
         setIsMintopen(false)
@@ -34,8 +43,6 @@ const Description = () => {
         setIsPurchaseopen(false)
         
     }, 3000)
-
-  
 
     return (
         <div className="level-1 description">
@@ -54,15 +61,6 @@ const Description = () => {
                         <div className="level-3 right">
                             <p >The price per pirate is <span className="eth">0.08 ETH, 0.05 ETH</span> for WL, setting sail Jan 7th, 2022.</p>
                             {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span></p>}
-                            
-
-                            {/* <div> */}
-                                
-                                {/* <div className="counter">
-                                    <div onClick={()=>{handleMainCounter("sub")}}>-</div>
-                                    <div>{counter}</div>
-                                    <div onClick={()=>{handleMainCounter("add")}}>+</div>
-                                </div> */}
 
                                 <div className="bar">
                                     <div style={{height: "100%", background:"red", width:"0%", position: "absolute"}}></div>
@@ -74,7 +72,7 @@ const Description = () => {
                                 <br></br>
                                 <p>0/30,000 Minted</p>
 
-                                <button  onClick={()=>{handleMintLoading(); setTimeout(()=>{openShop()}, 3000)}} disabled>MINT</button>
+                                <button  onClick={()=>{handleMintLoading();}}>MINT</button>
                                 <div><input type="checkbox" name="stake" defaultChecked/> <label htmlFor="stake" >Stake at Mint</label></div>
 
                                

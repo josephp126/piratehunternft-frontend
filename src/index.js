@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DAppProvider } from "@usedapp/core";
 import './fonts/pieces-of-eight/Pieces of Eight.ttf';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DAppProvider>
+      <App />
+    </DAppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

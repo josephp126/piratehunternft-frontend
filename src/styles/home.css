@@ -108,7 +108,7 @@ button {
   border-right: 2px solid #c3741a;
   border-top: 2px solid #f9b971;
   border-bottom: 2px solid #c3741a;
-  cursor: not-allowed;
+  cursor: pointer;
   /* margin-bottom: 100px; */
 }
 
@@ -505,7 +505,7 @@ tr td .counter > div:nth-of-type(3) {
   border-right: 2px solid #c3741a;
   border-top: 2px solid #f9b971;
   border-bottom: 2px solid #c3741a;
-  cursor: not-allowed;
+  cursor: pointer;
   margin: 20px auto;
   align-self: center;
   position: absolute;
