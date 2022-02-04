@@ -11,10 +11,10 @@
 }
 .home .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: 1fr 2fr;
   grid-auto-rows: minmax(200px, auto);
-  grid-gap: 30px;
-  max-width: 95%;
+  grid-gap: 30px; */
+  /* max-width: 100%; */
   margin: 0;
 }
 
@@ -79,6 +79,9 @@ button {
   border-right: 3px solid #c3741a;
   border-top: 3px solid #c3741a;
   padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .level-3.left {
@@ -146,9 +149,10 @@ h3 {
 }
 
 .btn {
-  width: 78%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .level-1.status {
@@ -393,6 +397,8 @@ tr td .counter > div:nth-of-type(3) {
 
 .stake-container {
   position: relative;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .stake-1 {
@@ -426,6 +432,7 @@ tr td .counter > div:nth-of-type(3) {
   display: flex;
   width: 100%;
   height: 100%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .stake-3-left {
@@ -493,7 +500,8 @@ tr td .counter > div:nth-of-type(3) {
   padding-top: 10px;
 }
 
-.stake-1 button {
+.stake-1 button,
+.level-3 button {
   width: 150px;
   height: 45px;
   color: white;
@@ -506,13 +514,15 @@ tr td .counter > div:nth-of-type(3) {
   border-top: 2px solid #f9b971;
   border-bottom: 2px solid #c3741a;
   cursor: pointer;
-  margin: 20px auto;
   align-self: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-left: 40px;
 }
+
+.level-3 button {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
 .button button {
   width: 100px;
   height: 45px;
@@ -545,6 +555,9 @@ tr td .counter > div:nth-of-type(3) {
   .home {
     padding: 0;
     margin: 50px auto;
+  }
+  .btn {
+    display: block;
   }
   .home .wrapper {
     grid-template-columns: 100%;
@@ -696,4 +709,31 @@ tr td .counter > div:nth-of-type(3) {
   .stake-1 {
     height: 400px;
   }
+}
+
+.level-3 input,
+.level-3 textarea {
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #141c2c;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 55px;
+  height: 55px;
+  border: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0.7;
+}
+.level-3 form {
+  width: 50%;
+}
+.level-3 textarea {
+  height: 200px;
 }

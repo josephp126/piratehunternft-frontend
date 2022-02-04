@@ -12,15 +12,10 @@ const Home = () => {
     // const {isShopOpen, openShop} = useContext(ToggleContext)
     return (
         <div className="home">
-            <div className="wrapper">
-                <Mint/>
-                <GameStatus />
+            <div className="wrapper">=
                 <Stake/>
                 <Leaderboard/>
-                <Description/>
             </div>
-           
-
         </div>
     )
 }

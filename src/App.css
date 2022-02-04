@@ -26,17 +26,20 @@
 }
 
 .roadmap img {
-  width: 90%;
+  width: 100%;
   display: block;
+  height: 100%;
 }
 
 .roadmap i {
   cursor: pointer;
+  position: absolute;
+  right: 0;
 }
 
 .roadmap.open {
   display: flex;
-  padding-left: 12%;
+  justify-content: center;
 }
 
 .whitepaper,
@@ -49,6 +52,9 @@
   z-index: 3;
   /* display: none; */
   margin-top: 60px;
+}
+.whitepaper {
+  display: block;
 }
 
 .whitepaper.open {
@@ -71,12 +77,29 @@
 }
 .whitepaper > div,
 .terms > div {
-  width: 90%;
-  background: #c3741a;
   color: white;
   padding: 20px;
   font-size: 1.3em;
   letter-spacing: 1px;
+}
+.whitepaper input {
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #141c2c;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 55px;
+  height: 55px;
+  border: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0.7;
 }
 .terms > div {
   background: black;

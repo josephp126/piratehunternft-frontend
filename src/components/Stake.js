@@ -1,9 +1,11 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import StakeLoading from "../gifs/stakeLoading.gif"
 import ConnectLoading from "../gifs/mintingLoading.gif"
 import TradeLoading from "../gifs/tradeLoad.gif"
 import { useEthers, useEtherBalance } from "@usedapp/core"
-
+import {Link} from "react-router-dom"
+import Web3 from "web3"
+import bootychest from "../abi/BootyChest.json"
 
 const Stake = () => {
     const [isStakeOpen, setIsStakeopen] = useState(false)
@@ -12,8 +14,21 @@ const Stake = () => {
     const { activateBrowserWallet, account } = useEthers()
 
 
-    const handleStakeLoading = () => {
-        setIsStakeopen(true)
+    const handleStakeLoading = async() => {
+        const web3 = new Web3(window.ethereum)
+        const _account = await web3.eth.getAccounts()
+
+        const contract = new web3.eth.Contract(
+            bootychest.abi,
+            bootychest["networks"]["5777"]["address"]
+        )
+
+        const tokenIds = [1, 2, 3];
+        const value = 10 * 2;
+        await contract.methods.addTokensToStake(_account[0], ).send({
+            from: _account[0],
+            value: value,
+        });
     }
     const handleConnectLoading = () => {
         activateBrowserWallet()
@@ -36,62 +51,57 @@ const Stake = () => {
     }, 3000)
 
     return (
-
-        <div className=" stake-container">
-            <div className={isStakeOpen ? "img open" : "img"}>
-                <img src={StakeLoading} alt="loading gif" />
-            </div>
-            <div className={isConnectOpen ? "img open" : "img"}>
-                <img src={ConnectLoading} alt="loading gif" />
-            </div>
-            <div className={isTradeOpen ? "img open" : "img"}>
-                <img src={TradeLoading} alt="loading gif" />
-            </div>
-            <div className="stake-1">
-                <div className="stake-2">
-                    <div className="stake-3">
-                        <div className="stake-3-left">
-                            <div className="top">
-                                <h3>UNSTAKED:</h3>
-                                <button onClick={handleConnectLoading}>{account ? `${account.slice(0, 6)}...` : "CONNECT WALLET"}</button>
-                            </div>
-                            <div className="bottom">
-                                <h3>STAKED:</h3>
-                            </div>
-
-                        </div>
-                        <div className="stake-3-right">
-                            <div className="top">
-                                <h3>ACTIVE ITEMS:</h3>
-                            </div>
-                            <div className="bottom">
+        <>
+            <h1 style={{textAlign:"center"}}>Create your own tokens in few steps</h1>
+            <div className=" stake-container">
+                <div className="stake-1">
+                    <div className="stake-2">
+                        <div className="stake-3">
+                            <div className="btn">
                                 <div>
-                                    <p>TOTAL $BOOTY IN WALLET:</p>
-                                    <h1>0</h1>
+                                    <Link to="/whitepaper">
+                                        <button style={{marginLeft: "0px"}}>ERC20</button>
+                                    </Link>
                                 </div>
                                 <div>
-                                    <p>TOTAL $BOOTY UNCLAIMED:</p>
-                                    <h1>0</h1>
+                                    <Link to="/whitepaper">
+                                        <button>BEP20</button>
+                                    </Link>
+                                </div>
+                                <div>
+                                    <Link to="/whitepaper">
+                                        <button>POLYGON</button>
+                                    </Link>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="btn">
-            <div className="button" >
-                <button onClick={handleStakeLoading} disabled>STAKE</button>
-                <button onClick={handleStakeLoading} disabled>CLAIM</button>
-                <button onClick={handleStakeLoading} disabled>UNSTAKE</button>
-            </div>
-            {/* <div className="button">
-                <button onClick={handleTradeLoading} disabled>TRADE</button>
-            </div> */}
-            </div>
-        </div>
+        </>
+        
     )
 }
 
 export default Stake
 
+struct UserInfo {// How many tokens the user has provided.
+    uint256 rewardDebt; // Reward debt. See explanation below.
+    uint256 trackNumMim;
+    uint256 trackNumAvax;
+    uint16 depositAmountMim;
+    uint16 depositAmountAvax;
+}
+if (_amount > 0) {    
+    if (address(pool.token) == mim) {
+        require(_amount + depositAmountMim < 2500 * 1e18, "MIN LIMIT EXCEED");
+        pool.token.safeTransferFrom(_sender, address(this), _amount);
+        user.depositAmountMim.add(_amount.mul(9900).div(10000));
+        user.trackNumMim.add(1);
+    } else {
+        require(_amount + depositAmountAvax < 40 * 1e18, "AVAX LIMIT EXCEED");
+        pool.token.safeTransferFrom(_sender, address(this), _amount);
+        user.depositAmountAvax.add(_amount);
+        user.trackNumAvax.add(1);
+    }
+}

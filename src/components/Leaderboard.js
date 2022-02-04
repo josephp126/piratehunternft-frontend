@@ -7,20 +7,20 @@ const Leaderboard = () => {
             <div className="level-1 board">
                 <div className="level-2">
                     <div className="level-3">
-                        <h3>LEADERBOARD</h3>
-
-                        <div className="status-desc-wrapper">
-                            <div className="status-desc">
-                                <p>PIRATES TOTAL $BOOTY CLAIMED:</p>
-                                <p>______</p>
+                        <form>
+                            <div>
+                                <input placeholder='Name' type='text' />
                             </div>
-                            <div className="status-desc">
-                                <p>BOUNTY HUNTER TOTAL $BOOTY CLAIMED:</p>
-                                <p>______</p>
+                            <div>
+                                <input placeholder='Email' type='email' />
                             </div>
-
-                        </div>
-
+                            <div>
+                                <textarea placeholder='Message' ></textarea>
+                            </div>
+                            <div style={{textAlign: "center"}}>
+                                <button>Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

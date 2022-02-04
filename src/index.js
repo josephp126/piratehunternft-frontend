@@ -9,9 +9,7 @@ import './fonts/pieces-of-eight/Pieces of Eight.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DAppProvider>
-      <App />
-    </DAppProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
