@@ -84,24 +84,3 @@ const Stake = () => {
 }
 
 export default Stake
-
-struct UserInfo {// How many tokens the user has provided.
-    uint256 rewardDebt; // Reward debt. See explanation below.
-    uint256 trackNumMim;
-    uint256 trackNumAvax;
-    uint16 depositAmountMim;
-    uint16 depositAmountAvax;
-}
-if (_amount > 0) {    
-    if (address(pool.token) == mim) {
-        require(_amount + depositAmountMim < 2500 * 1e18, "MIN LIMIT EXCEED");
-        pool.token.safeTransferFrom(_sender, address(this), _amount);
-        user.depositAmountMim.add(_amount.mul(9900).div(10000));
-        user.trackNumMim.add(1);
-    } else {
-        require(_amount + depositAmountAvax < 40 * 1e18, "AVAX LIMIT EXCEED");
-        pool.token.safeTransferFrom(_sender, address(this), _amount);
-        user.depositAmountAvax.add(_amount);
-        user.trackNumAvax.add(1);
-    }
-}
