@@ -64,7 +64,7 @@ const Description = () =>
                 </div>
 
                 <div className="level-3 right">
-                    <p >The price per pirate is <span className="eth">0.08 ETH, 0.05 ETH</span> for WL, setting sail Jan 7th, 2022.</p>
+                    <p >The price per pirate is <span className="eth">0.05 ETH, 0.012 ETH</span> for WL, setting sail Feb 7th, 2022.</p>
                     {Difference < 0 ? <p>Launched</p> : <p>Launch in: <span>{countDown.days}D</span></p>}
 
                     <div className="bar">
