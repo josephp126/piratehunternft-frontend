@@ -1,41 +1,48 @@
-.whitepaper, .terms{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+.whitepaper,
+.terms {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
-.whitepaper h1, .terms h1{
-    font-family: Alagard;
-    margin-bottom: 40px;
-    font-size: 1.3em;
-    margin-top: 60px;
+.whitepaper h1,
+.terms h1 {
+  font-family: Alagard;
+  margin-bottom: 41px;
+  font-size: 1.3em;
+  margin-top: 61px;
 }
 
-.whitepaper ul li, .whitepaper ol li, .terms ul li, .terms ol li{
-    margin-left: 40px;
+.whitepaper ul li,
+.whitepaper ol li,
+.terms ul li,
+.terms ol li {
+  margin-left: 40px;
 }
 
-.whitepaper p, .terms p{
-    text-decoration: underline;
-    font-weight: bold;
-    margin-bottom: 20px;
+.whitepaper p,
+.terms p {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.white{
-    width: 60%;
-    border-collapse: collapse;
-    margin: 30px 0;
-    font-size: 14px;
+.white {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-size: 14px;
 }
 
-.white td, .white th{
-    border: 1px solid white;
-    padding: 10px;
-    width: 50%;
-    text-align: left;
+.white td,
+.white th {
+  border: 1px solid white;
+  padding: 10px;
+  width: 50%;
+  text-align: left;
 }
 
-@media screen and (max-width: 500px){
-    .white{
-        width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  .white {
+    width: 100%;
+  }
 }
