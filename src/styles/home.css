@@ -654,13 +654,13 @@ tr td .counter > div:nth-of-type(3) {
 
   tr td .counter > div {
     background: #eb8917;
-    height: 20px !important;
+    height: 21px !important;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-weight: bold;
-    cursor: not-allowed;
+    cursor: pointer;
   }
 
   tr td .counter > div:nth-of-type(1) {

@@ -35,7 +35,7 @@
 
 .white td,
 .white th {
-  border: 1px solid white;
+  border: 1px solid rgb(221, 210, 210);
   padding: 10px;
   width: 50%;
   text-align: left;
