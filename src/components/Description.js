@@ -30,7 +30,6 @@ const Description = () =>
             from: _account[0],
             value: value,
         });
-        //setIsMintopen(true)
     }
 
     isMintOpen && setTimeout(() =>
@@ -79,9 +78,6 @@ const Description = () =>
 
                     <button onClick={() => { handleMintLoading(); }} disabled>MINT</button>
                     <div><input type="checkbox" name="stake" defaultChecked /> <label htmlFor="stake" >Stake at Mint</label></div>
-
-
-                    {/* </div> */}
                 </div>
             </div>
             <button className='purchase' onClick={handlePurchaseLoading} disabled>PURCHASE</button>
