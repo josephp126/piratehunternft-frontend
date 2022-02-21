@@ -48,7 +48,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 3;
   /* display: none; */
   margin-top: 60px;
@@ -66,7 +66,7 @@
   font-size: 40px;
   color: red;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   position: fixed;
   display: block;
   background: #c3741a;
@@ -93,8 +93,8 @@
   color: white;
   font-size: 18px;
   font-weight: 500;
-  line-height: 56px;
-  height: 55px;
+  line-height: 54px;
+  height: 54px;
   border: none;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
